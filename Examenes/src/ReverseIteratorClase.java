@@ -1,0 +1,45 @@
+import dataStructures.stack.ArrayStack;
+import dataStructures.stack.Stack;
+import java.util.Iterator;
+import java.util.NoSuchElementException;
+
+
+public class ReverseIteratorClase<T> implements Iterator<T> {
+
+	// ..
+	
+	/** 
+	 * Crea un ReverseIterator a partir de un iterable
+	 * Esta clase implementa la interfaz Iterator<T> 	 * @param it  El iterable que se quiere invertir
+	 */
+	public ReverseIteratorClase(Iterable<T> it) {
+		// ...
+	}
+	
+	/**
+	 * Hay más elementos en el iterador?
+	 */
+	public boolean hasNext() {
+		return false;
+	}
+	
+	/**
+	 * Siguiente elemento del iterador.
+	 * Avanza el iterador
+	 * @ return El siguiente elemento
+	 */
+	public T next() {
+		// ...
+		return null;
+	}
+	
+	/**
+	 * Crea y devuelve un iterable que utiliza un reverse iterator 
+	 * @param iterable   El iterador a invertir
+	 * @return  Un iterable invertido del que se pasa como parámetro
+	 */
+	public static <T> Iterable<T> elements(final Iterable<T> iterable) {
+		// ..
+		return null;
+	}
+}
